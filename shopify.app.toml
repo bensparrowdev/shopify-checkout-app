@@ -2,18 +2,18 @@
 
 name = "ben-test-app"
 client_id = "beeddfe1e1ae43d86f09cfd44b1502d0"
-application_url = "https://sm-cycle-copyright-mental.trycloudflare.com"
+application_url = "https://pottery-prostate-speakers-chart.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products, write_delivery_customizations"
 
 [auth]
 redirect_urls = [
-  "https://sm-cycle-copyright-mental.trycloudflare.com/auth/callback",
-  "https://sm-cycle-copyright-mental.trycloudflare.com/auth/shopify/callback",
-  "https://sm-cycle-copyright-mental.trycloudflare.com/api/auth/callback"
+  "https://pottery-prostate-speakers-chart.trycloudflare.com/auth/callback",
+  "https://pottery-prostate-speakers-chart.trycloudflare.com/auth/shopify/callback",
+  "https://pottery-prostate-speakers-chart.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
